@@ -1,0 +1,22 @@
+<div class="row">
+  <div class="col s12 m6">
+      <div class="card white">
+        <div class="card-content black-text">
+          <span class="card-title">Status</span>
+          <p>Follower alert current status: {{ currentStatus }}</p>
+        </div>
+        <div class="card-action">
+          <a ng-click="enableFollower()" class="waves-effect waves-light btn light-green accent-4" ng-class="disabled ? '' : 'disabled'">Enable</a>
+          <a ng-click="disableFollower()" class="waves-effect waves-light btn red" ng-class="disabled ? 'disabled' : ''">Disable</a>
+        </div>
+      </div>
+  </div>
+  <div class="col s12 m6">
+      <div class="card white">
+        <div class="card-content black-text">
+          <span class="card-title">Settings</span>
+          <p>Change the follower alert settings</p>
+        </div>
+      </div>
+  </div>
+</div>
